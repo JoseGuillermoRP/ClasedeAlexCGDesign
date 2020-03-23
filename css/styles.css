@@ -279,12 +279,15 @@ footer{
         margin-bottom: 30px;
     }
     /* servicios */
-    .servicios-cont{
+    .servicio-cont{
         justify-content: center;
         flex-direction: column;
     }
     .servicio-ind{
         width: 100%;
+        text-align: center;
+    }
+    .servicio-ind p{
         text-align: center;
     }
     .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
@@ -330,12 +333,15 @@ footer{
         align-items: center;
     }
     .cards .card img{
-        width: 90%;
+        width: 90px;
         height: 90px;
     }
     /* footer*/
     .contenedor-footer{
         flex-direction: column;
+        
+    }
+    .contenedor-footer h4{
         border: none;
     }
     .content-foo{
